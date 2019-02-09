@@ -10,6 +10,7 @@
 |课表|周数选择|
 |:---|:---|
 |![课表](https://github.com/Sningi/MobileTIO/blob/master/show/course1.jpg)|![周数选择](https://github.com/Sningi/MobileTIO/blob/master/show/course2.jpg)||课程信息|自定义课程|
+|课程信息|自定义课程|
 |:---|:---|
 |![课程信息](https://github.com/Sningi/MobileTIO/blob/master/show/dialog1.jpg)|![自定义课程](https://github.com/Sningi/MobileTIO/blob/master/show/dialog2.jpg)|
 ## 4、个人信息
