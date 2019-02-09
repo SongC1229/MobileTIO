@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_page"
+        android:title="@string/home_page"
+        android:orderInCategory="1"
+        android:icon="@drawable/home_tab" />
+
+    <item
+        android:id="@+id/course_table_page"
+        android:title="@string/course_table_page"
+        android:orderInCategory="1"
+        android:icon="@drawable/course_table_tab" />
+
+    <item
+        android:id="@+id/user_page"
+        android:title="@string/user_page"
+        android:orderInCategory="1"
+        android:icon="@drawable/user_tab" />
+
+
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+    <!--android:weightSum="5"-->
+
+
+    <!--日期-->
+    <TextView
+        android:text="12.29 12:12"
+        android:id="@+id/w_tv_note_data"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="@drawable/w_white_btn"
+        android:textSize="10sp"
+        android:textColor="@color/data"/>
+
+    <!--图标部分-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <!--竖的线条-->
+        <View
+            android:id="@+id/w_v_divide"
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="30dp"
+            android:background="@color/time_divide"/>
+
+        <!--光轴的圆形图标-->
+        <ImageView
+            android:id="@+id/w_iv_note_icon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="14dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/w_v_divide"
+            android:background="@drawable/note"/>
+
+        <!--竖的线条-->
+        <View
+            android:id="@+id/w_v_divide1"
+            android:layout_below="@+id/w_iv_note_icon"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:background="@color/time_divide"/>
+    </RelativeLayout>
+
+    <!--数据内容-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/w_white_btn">
+
+        <!--title数据-->
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/w_tv_note_title"
+            android:text=""
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/data"
+            />
+
+        <!--数据内容-->
+        <TextView
+            android:id="@+id/w_tv_note_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textSize="13sp"
+            android:textColor="@color/data"/>
+
+    </LinearLayout>
+
+</LinearLayout>

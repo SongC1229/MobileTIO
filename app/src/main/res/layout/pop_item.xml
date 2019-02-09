@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66000000"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/w_ll_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/w_icon_btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/w_white_btn_top"
+            android:textColor="@color/colorMainGreen"
+            android:text="@string/w_camera"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_gray"/>
+
+        <Button
+            android:id="@+id/w_icon_btn_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/w_white_btn_bottom"
+            android:textColor="@color/colorMainGreen"
+            android:text="@string/w_select_image"/>
+
+        <Button
+            android:id="@+id/w_icon_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/w_white_btn"
+            android:textColor="@color/colorMainGreen"
+            android:text="@string/w_cancel"/>
+    </LinearLayout>
+
+</RelativeLayout>

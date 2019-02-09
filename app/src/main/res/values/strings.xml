@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">MobileTIO</string>
+    <string name="btn_login_succeed_test">登陆成功测试</string>
+    <string name="btn_login_fail_test">登陆失败测试</string>
+    <string name="btn_logout_test">注销测试</string>
+    <string name="tv_fragment_1">这是碎片1</string>
+    <string name="tv_fragment_2">这是碎片2</string>
+    <string name="tv_fragment_3">这是碎片3</string>
+    <string name="home_page">首页</string>
+    <string name="course_table_page">课程表</string>
+    <string name="user_page">我的</string>
+    <string name="grade">我的成绩</string>
+    <string name="graduate">学籍保研</string>
+    <string name="library">图书馆</string>
+    <string name="exam">考试管理</string>
+    <string name="money">缴费</string>
+    <string name="document">文件下载</string>
+    <string name="dorm">宿舍生活</string>
+    <string name="more_function">更多功能</string>
+
+
+    <string name="s_day1">周一</string>
+    <string name="s_day2">周二</string>
+    <string name="s_day3">周三</string>
+    <string name="s_day4">周四</string>
+    <string name="s_day5">周五</string>
+    <string name="s_day6">周六</string>
+    <string name="s_day7">周日</string>
+
+    <string name="s_course1">一</string>
+    <string name="s_course2">二</string>
+    <string name="s_course3">三</string>
+    <string name="s_course4">四</string>
+    <string name="s_course5">五</string>
+
+    <string name="s_course_name">课程名称</string>
+    <string name="s_course_room">教室</string>
+    <string name="s_course_teacher">任课教师</string>
+    <string name="s_course_start">起始周</string>
+    <string name="s_course_end">结束周</string>
+    <string name="s_course_credit">学分</string>
+    <string name="s_course_grade">成绩</string>
+    <string name="s_course_type">类型</string>
+
+    <string name="s_btn_cancel">返回</string>
+    <string name="s_btn_save">保存</string>
+    <string name="s_btn_delete">删除</string>
+    <string name="s_edit_teacher">教师</string>
+    <string name="s_edit_room">教室</string>
+    <string name="s_text_teacher">教师:</string>
+    <string name="s_text_room">教室:</string>
+    <string name="s_edit_course">课程</string>
+    <string name="s_text_course">课程:</string>
+    <string name="s_text_courseinfo">课程信息</string>
+    <string name="s_course_startweek">起始周:</string>
+    <string name="s_course_endweek">结束周:</string>
+    <string name="z_input_user_name">请输入姓名</string>
+    <string name="z_input_password">请输入密码</string>
+    <string name="z_input_user_id">请输入学号</string>
+    <string name="z_launch">登陆</string>
+    <string name="z_goto_signup">注册账号</string>
+    <string name="z_confirm_password">确认密码</string>
+    <string name="z_confirm_signup">确认注册</string>
+    <string name="z_signup">注册</string>
+    <string name="z_reset_password">找回密码</string>
+    <string name="z_split_login">|</string>
+    <string name="z_news">新闻</string>
+    <string name="z_info">公告</string>
+
+    <string name="w_username">某同学</string>
+    <string name="w_user_val">物联网1502</string>
+    <string name="w_customize">个人信息</string>
+    <string name="w_memo">备忘录</string>
+    <string name="w_safe">安全与隐私</string>
+    <string name="w_connecting">联系我们</string>
+    <string name="w_clearCache">清除缓存</string>
+    <string name="w_about">关于</string>
+    <string name="w_title">标签</string>
+    <string name="w_title_hint">请输入记录的类型</string>
+    <string name="w_content">内容</string>
+    <string name="w_content_hint">请输入记录的内容</string>
+    <string name="w_camera">拍照</string>
+    <string name="w_select_image">从相册中选择</string>
+    <string name="w_cancel">取消</string>
+    <string name="w_name">姓名</string>
+    <string name="w_user_phone">电话</string>
+    <string name="w_user_email">邮箱</string>
+    <string name="w_user_major">专业</string>
+    <string name="w_user_sex">性别</string>
+    <string name="w_user_year">年级</string>
+    <string name="w_user_class">班级</string>
+
+
+    <string name="w_old_password">旧密码</string>
+    <string name="w_old_hit">请输入旧密码</string>
+    <string name="w_new_password">新密码</string>
+    <string name="w_new_hit">请输入新密码</string>
+    <string name="w_confirm_password">确认新密码</string>
+    <string name="w_confirm_hit">请再输一次新密码</string>
+    <string name="w_off">注销登录</string>
+
+
+</resources>

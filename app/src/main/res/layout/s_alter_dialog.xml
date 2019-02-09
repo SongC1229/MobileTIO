@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/s_alter_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="180dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/s_dialog_shape"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/s_text_courseinfo"
+        android:textSize="20sp"
+        android:textColor="@color/s_title_text"
+        android:background="@drawable/s_background_shape_purple"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/s_text_course"
+            android:textColor="@color/s_label_text"
+            android:background="@drawable/s_background_shape_red"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/s_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="@drawable/s_background_shape_lightblue"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:hint="@string/s_edit_course"
+            android:textColor="@color/s_label_text"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/s_text_teacher"
+            android:textColor="@color/s_label_text"
+            android:background="@drawable/s_background_shape_red"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/s_edit_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="@drawable/s_background_shape_lightblue"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:hint="@string/s_edit_teacher"
+            android:textColor="@color/s_label_text"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/s_text_room"
+            android:textColor="@color/s_label_text"
+            android:background="@drawable/s_background_shape_red"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/s_edit_room"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="@drawable/s_background_shape_lightblue"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:hint="@string/s_edit_room"
+            android:textColor="@color/s_label_text"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/s_course_startweek"
+            android:textColor="@color/s_label_text"
+            android:background="@drawable/s_background_shape_red"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/s_edit_startweek"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="@drawable/s_background_shape_lightblue"
+            android:singleLine="true"
+            android:maxLength="2"
+            android:hint="@string/s_course_start"
+            android:textColor="@color/s_label_text"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/s_course_endweek"
+            android:textColor="@color/s_label_text"
+            android:background="@drawable/s_background_shape_red"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/s_edit_endweek"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:background="@drawable/s_background_shape_lightblue"
+            android:singleLine="true"
+            android:maxLength="2"
+            android:hint="@string/s_course_end"
+            android:textColor="@color/s_label_text"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        >
+        <Button
+            android:id="@+id/s_btn_delete_course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/s_background_shape_ching"
+            android:text="@string/s_btn_delete" />
+
+        <Button
+            android:id="@+id/s_btn_save_course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/s_background_shape_ching"
+            android:text="@string/s_btn_save" />
+
+        <Button
+            android:id="@+id/s_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/s_background_shape_ching"
+            android:text="@string/s_btn_cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

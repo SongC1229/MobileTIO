@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="s_nobackdialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/s_noback</item>
+    </style>
+
+    <style name="popwindow_anim_style">
+        <!--PopUpWindow动画效果-->
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_gone</item>
+    </style>
+
+    <style name="StatusBarTheme" parent="AppTheme">
+    </style>
+
+
+
+</resources>

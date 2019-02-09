@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background_gray"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/w_ll_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_title"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/w_note_title_color"
+            android:id="@+id/w_tv_title"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/w_et_title"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/w_note_content_color"
+            android:layout_height="40dp"
+            android:hint="@string/w_title_hint"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="75dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/w_tv_content"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:id="@+id/w_et_content"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/w_note_content_color"
+            android:hint="@string/w_content_hint"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

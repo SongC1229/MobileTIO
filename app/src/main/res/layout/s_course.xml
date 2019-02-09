@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--模仿课程表的界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s_backgroung"
+    >
+    <!--显示星期-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/spinnerTextColor"
+            android:text="@string/s_day7"/>
+    </LinearLayout>
+    <!--显示课表详细信息-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--显示多少节课-->
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/s_course1"
+                    android:textColor="@color/spinnerTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/s_course2"
+                    android:textColor="@color/spinnerTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/s_course3"
+                    android:textColor="@color/spinnerTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/s_course4"
+                    android:textColor="@color/spinnerTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="89dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/s_course5"
+                    android:textColor="@color/spinnerTextColor"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <GridView
+                android:id="@+id/s_course_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="7"
+                android:horizontalSpacing="1dp"
+                android:verticalSpacing="1dp"
+                android:stretchMode="columnWidth">
+            </GridView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

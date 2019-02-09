@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_gray"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource">
+
+    <!--姓名-->
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/w_ll_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_name"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/w_note_title_color"
+            android:id="@+id/w_tv_name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/w_et_name"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/data"
+            android:background="@drawable/w_note_content_color"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <!--电话-->
+    <LinearLayout
+        android:layout_marginTop="75dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_user_phone"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/w_tv_user_phone"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:id="@+id/w_et_user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/w_note_content_color" />
+    </LinearLayout>
+    <!--邮箱-->
+    <LinearLayout
+        android:layout_marginTop="130dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_user_email"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/w_tv_user_email"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:id="@+id/w_et_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/w_note_content_color" />
+    </LinearLayout>
+    <!--专业-->
+    <LinearLayout
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/w_tv_user_major"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_user_major"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/w_et_user_major"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/data"
+            android:background="@drawable/w_note_content_color" />
+    </LinearLayout>
+    <!--性别-->
+    <LinearLayout
+        android:layout_marginTop="230dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/w_tv_user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_user_sex"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/w_et_user_sex"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/data"
+            android:background="@drawable/w_note_content_color" />
+    </LinearLayout>
+    <!--年级-->
+    <LinearLayout
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/w_tv_user_year"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_user_year"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/w_et_user_year"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/data"
+            android:background="@drawable/w_note_content_color" />
+    </LinearLayout>
+    <!--班级-->
+    <LinearLayout
+        android:layout_marginTop="330dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/w_tv_user_class"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="65dp"
+            android:gravity="center"
+            android:text="@string/w_user_class"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/w_note_title_color" />
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/w_et_user_class"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/data"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/w_note_content_color" />
+    </LinearLayout>
+
+</RelativeLayout>

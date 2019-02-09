@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--注意包名-->
+    <!--代表外部存储区域的根目录下的文件-->
+    <external-path
+        name="hm_Pictures"
+        path="Pictures/cameraDemo"/>
+    </paths>

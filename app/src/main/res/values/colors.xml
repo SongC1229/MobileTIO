@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#669df7</color>
+    <color name="colorPrimaryDark">#5484d2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorActivityBackground">#dfe2e7</color>
+    <color name="colorToolBar">#669df7</color>
+    <color name="spinnerTextColor">#000000</color>
+    <color name="tabBarBackground">#00574B</color>
+    <color name="s_title_text">#232326</color>
+    <color name="s_label_text">#2e2e31</color>
+    <color name="s_noback">#00000000</color>
+    <color name="z_grade_text">#000000</color>
+    <color name="z_color_launch_signup">#13abc4</color>
+    <color name="z_btnLoginBg">#c3b4d2</color>
+    <color name="z_spinnerArrowColor">#929aab</color>
+    <color name="z_titleFragmentTextColor">#929aab</color>
+    <color name="z_welcomeCardViewColor">#ffe6eb</color>
+    <color name="z_newsIconBackground">#ffc5e6</color>
+    <color name="z_infoIconBackground">#6effbf</color>
+
+    <color name="z_cardViewNewsInfoBackground">#ffffff</color>
+    <color name="z_cardViewNewsSpilt">#929aab</color>
+
+    <color name="data">#686A6F</color>
+    <color name="time_divide">#D81B60</color>
+    <color name="colorMainGreen">#40cab3</color>
+    <color name="background_gray">#91A9B8</color>
+    <color name="black">#011311</color>
+    <color name="colorStatusBarLogin">#e0c3fc</color>
+
+    <color name="colorWelcomeText">#a275e3</color>
+
+    <color name="textBlack">#515151</color>
+    <color name="white">#ffffff</color>
+    <color name="back_grey">#f6f7f9</color>
+
+</resources>

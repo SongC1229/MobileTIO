@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorToolBar">
+
+    <!--右上角图标-->
+    <ImageView
+        android:id="@+id/z_iv_menu"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/menu"
+        android:layout_alignParentRight="true"
+        />
+
+    <!--标题-->
+    <LinearLayout
+        android:id="@+id/z_ly_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_toLeftOf="@+id/z_iv_menu"
+        >
+
+        <!--主标题-->
+        <TextView
+            android:id="@+id/z_tv_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:gravity="center|right"
+            android:textSize="20sp"
+            android:text="课程表"
+            />
+        <!--下拉框-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            >
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/z_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                app:dropDownListPaddingBottom="300dp"
+                android:backgroundTint="@color/colorToolBar"
+                android:textColor="@color/textBlack"
+                app:textTint="@color/textBlack"
+                app:arrowTint="@color/z_spinnerArrowColor"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

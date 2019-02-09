@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sning.mtio.Activities.MainActivity"
+    android:background="@color/colorActivityBackground">
+
+    <FrameLayout
+        android:id="@+id/z_fl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorToolBar"
+        >
+    </FrameLayout>
+
+
+    <!--中间碎片-->
+    <FrameLayout
+        android:id="@+id/z_fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/z_bottom_navigation"
+        android:layout_below="@id/z_fl_title_bar"
+        />
+
+    <!--底部导航栏-->
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/z_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:bnbBackgroundColor="@color/white"
+        />
+
+
+
+
+</RelativeLayout>
