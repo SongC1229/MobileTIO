@@ -172,7 +172,7 @@ public class UserFragment extends Fragment {
         String temp = settingActivity.iconPath;
         Log.i("TAG",temp+"xxxx");
         Glide.with(this).load(R.drawable.pic1)
-                .apply(bitmapTransform(new BlurTransformation(v.getContext(),25)))
+//                .apply(bitmapTransform(new BlurTransformation(v.getContext(),25)))
                 .into(blurImageView);
 
         Glide.with(this).load(R.drawable.pic1)
