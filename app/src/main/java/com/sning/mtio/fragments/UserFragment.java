@@ -41,8 +41,9 @@ import java.util.Map;
 
 import jp.wasabeef.glide.transformations.BlurTransformation;
 import jp.wasabeef.glide.transformations.CropCircleTransformation;
+import jp.wasabeef.glide.transformations.GrayscaleTransformation;
 
-
+import static com.bumptech.glide.request.RequestOptions.bitmapTransform;
 
 
 public class UserFragment extends Fragment {
@@ -170,13 +171,13 @@ public class UserFragment extends Fragment {
         SettingActivity settingActivity = new SettingActivity();
         String temp = settingActivity.iconPath;
         Log.i("TAG",temp+"xxxx");
-        Glide.with(this).load(R.drawable.pic1).into(avatarImageView);
-//                .bitmapTransform(new BlurTransformation(v.getContext(),25),new CenterCrop(v.getContext()))
-//                .into(blurImageView);
+        Glide.with(this).load(R.drawable.pic1)
+                .apply(bitmapTransform(new BlurTransformation(v.getContext(),25)))
+                .into(blurImageView);
 
-        Glide.with(this).load(R.drawable.pic1).into(avatarImageView);
-//                .bitmapTransform(new CropCircleTransformation(v.getContext()))
-//                .into(avatarImageView);
+        Glide.with(this).load(R.drawable.pic1)
+                .apply(bitmapTransform(new CropCircleTransformation(v.getContext())))
+                .into(avatarImageView);
     }
 
     public void addNote(){
